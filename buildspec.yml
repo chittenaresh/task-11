@@ -12,7 +12,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
-      - pip install task-11/requirements.txt
+      - pip install -r task-11/requirements.txt
   build:
     commands:
       - echo "Running tests..."
